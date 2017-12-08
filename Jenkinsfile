@@ -21,6 +21,7 @@ pipeline {
         }
         stage('Deliver') {
             steps {
+				sh 'echo DONE'
             }
         }
     }
